@@ -1,0 +1,38 @@
+# SVG file
+string file
+
+# Height between layers - Meters
+float64 height_between_layers
+
+# Number of points per revolution
+uint64 revolution_number_of_points
+
+# Meters
+float64 deposited_material_width
+
+# If true slicing is done along the path rather than along the Z axis
+bool slice_along_path
+
+# By default, passes are generated towards the exterior
+bool towards_interior
+
+# Number of passes
+uint64 number_of_passes
+
+# Connection angle (radians)
+float64 connection_angle
+
+# Arc points - Discretization of arcs
+uint32 arc_points
+---
+# Number of poses in the trajectory
+uint64 number_of_poses
+
+# If empty: success
+string error_msg
+---
+# Percentage of path planning
+uint64 progress_value
+
+# progress message
+string progress_msg

@@ -1,0 +1,26 @@
+# YAML (YML), OBJ, PLY or STL file
+string file
+
+# In case of OBJ, PLY, STL file the number of layers depends on the mesh and the height by layer
+uint64 number_of_layers
+
+# Height between layers - Meters
+float64 height_between_layers
+
+# Meters
+float64 deposited_material_width
+
+# Normal vector to slicing plane
+geometry_msgs/Vector3 slicing_direction
+---
+# Number of poses in the trajectory
+uint64 number_of_poses
+
+# If empty: success
+string error_msg
+---
+# Percentage of path planning
+uint64 progress_value
+
+# progress message
+string progress_msg

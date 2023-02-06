@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="use_gui" default="false"/>
+  <param name="use_gui" value= "$(arg use_gui)"/>
+  
+  <node pkg="ram_path_planning" type="ram_path_planning" name="path_planning" output="screen" required="true"/>
+  <node pkg="ram_path_planning" type="ram_path_planning" name="path_planning_client" output="screen" required="true"/>
+</launch>

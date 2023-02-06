@@ -1,0 +1,32 @@
+# YAML (YML) file
+string file
+
+# This allows to duplicate the first layer into more layers
+bool duplicate_layer
+
+# Number of layers (only used if duplicate_layer == true)
+uint64 number_of_layers
+
+# Height between layers (only used if duplicate_layer == true)
+float64 height_between_layers
+
+# Inverts layer 2, 2, 6, 8, 10 etc. (only used if duplicate_layer == true)
+bool invert_one_of_two_layers
+
+# Discretization of arcs, the number of points generated on each arc
+uint32 arc_points
+
+# Allows to change the first pose of the trajectory for a closed SVG polygon
+uint32 rotate_poses
+---
+# Number of poses in the trajectory
+uint64 number_of_poses
+
+# If empty: success
+string error_msg
+---
+# Percentage of path planning
+uint64 progress_value
+
+# progress message
+string progress_msg

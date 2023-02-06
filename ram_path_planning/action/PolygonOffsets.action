@@ -1,0 +1,82 @@
+# SVG or YAML file
+string file
+
+# Number of layers
+uint64 number_of_layers
+
+# Height between layers - Meters
+float64 height_between_layers
+
+# Meters
+float64 deposited_material_width
+
+# Number of passes
+uint64 number_of_passes
+
+# Towards interior
+bool towards_interior
+
+# Connection type : true : angle parameter[rad], false : length parameter [m]
+bool connection_type
+
+# Depends on connection_type
+# distance [m] : sets the angle between the current pass and the pass + 1
+# angle [rad] : sets the angle between the current pass and the pass + 1
+float64 connection_value
+
+# Offset factor [m] : allows to offset location between current pass and pass + 1
+float64 offset_factor
+
+# Safe distance [m] : this is the distance which will not be heated by the laser during the process
+float64 safe_distance
+
+# Discontinous trajectory [bool] : defines whether the trajectory is continous or not (continous = the process does not stop)
+bool discontinous_trajectory
+
+# Avoid trajectories crossing : if enable, this option allows to avoid crossing with origin trajectory and offset trajectory
+# To do that, an exit pose is inserted at the end of the origin trajectory and an entry pose is inserted at the beginning of
+# the offset trajectory
+bool avoid_trajectories_crossing
+
+# Automatic reverse path [bool] : defines if the first pass (origin trajectory) is automatically reversed (some cases need it)
+bool automatic_reverse_path
+
+# Reverse origin path [bool] : manually reverse the origin trajectory
+bool reverse_origin_path
+
+# Join types
+# See http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/JoinType.htm
+uint32 join_type
+# 0 = jtSquare
+# 1 = jtRound
+# 2 = jtMiter
+
+# End types
+# See http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/EndType.htm
+uint32 end_type
+# 0 = etClosedPolygon
+# 1 = etClosedLine
+# 2 = etOpenButt
+# 3 = etOpenSquare
+# 4 = etOpenRound
+
+# Only used if join type is jtRound
+float64 arc_tolerance
+
+# Only used if join type is jtMiter
+float64 miter_limit
+
+# Arc points - Discretization of arcs
+uint32 arc_points
+---
+# Number of poses in the trajectory
+uint64 number_of_poses
+
+# If empty: success
+string error_msg
+---
+# Percentage of path planning
+uint64 progress_value
+
+# progress message
+string progress_msg

@@ -1,0 +1,49 @@
+# SVG file
+string file
+
+# Height between layers - Meters
+float64 height_between_layers
+
+# Meters
+float64 deposited_material_width
+
+# If true slicing is done along the path rather than along the Z axis
+bool slice_along_path
+
+# By default, passes are generated towards the exterior
+bool towards_interior
+
+# Number of passes
+uint64 number_of_passes
+
+# Angle percentage
+# Between 0.0 and 1.0
+# Factor used to reduce the orientation of the head (to minimize the angle)
+float64 angle_percentage
+
+# Angle type - Determines what angles are generated on the poses of the trajectory
+# 0 = Constant
+# The angle will be optimal where there is no material support, this angle will be the same
+# for the whole layer.
+# 1 = Opposite
+# The angle will be optimal where there is no material support, this angle will be inverted at the
+# opposite pose of each pass.
+# 2 = Zero opposite
+# The angle will be optimal where there is no material support, this angle will be zero at the
+# opposite pose of each pass. There is a transition between the angled / zero orientation.
+uint32 angle_type
+
+# Arc points - Discretization of arcs
+uint32 arc_points
+---
+# Number of poses in the trajectory
+uint64 number_of_poses
+
+# If empty: success
+string error_msg
+---
+# Percentage of path planning
+uint64 progress_value
+
+# progress message
+string progress_msg
