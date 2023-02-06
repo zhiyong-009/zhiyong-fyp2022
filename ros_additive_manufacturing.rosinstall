@@ -1,0 +1,3 @@
+- git: {local-name:  industrial_robot_angle_conversions,
+        uri: 'https://gitlab.com/InstitutMaupertuis/industrial_robot_angle_conversions.git',
+        version: melodic}
