@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ram_path_planning" type="ram_path_planning" name="path_planning" output="screen" required="true"/>
+  <!-- Automated test -->
+  <test test-name="services_clients" pkg="ram_path_planning" type="ram_path_planning_services_clients" required="true"/>
+
+  <!-- Human inspection test with VTK -->
+  <arg name="use_gui" default="false"/>
+  <group if="$(arg use_gui)">
+    <param name="use_gui" value="true"/>
+  </group>
+</launch>
