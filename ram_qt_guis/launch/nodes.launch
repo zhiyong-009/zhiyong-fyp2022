@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="debug_path_planning"/>
+  <param name="ram/path_planning/use_gui" value="$(arg debug_path_planning)"/>
+
+  <param name="ram/display/trajectory_marker_topic" value="rvt_trajectory"/>
+  <param name="ram/display/selection_marker_topic" value="rvt_selection"/>
+  <param name="ram/trajectory_frame" value= "start_pose"/>
+  <param name="ram/base_link" value="base"/>
+
+  <node pkg="ram_display" type="ram_display" name="ram_display" output="screen" required="true"/>
+  <node pkg="ram_utils" type="ram_utils_trajectory_info" name="ram_utils_trajectory_info" output="screen" required="true"/>
+  <node pkg="ram_utils" type="ram_utils_frames_tf_broadcaster" name="ram_utils_frames_tf_broadcaster" output="screen" required="true"/>
+  <node pkg="ram_utils" type="ram_utils_fill_trajectory_parameters" name="ram_utils_fill_trajectory_parameters" output="screen" required="true"/>
+  <node pkg="ram_utils" type="ram_utils_entry_exit_strategies" name="ram_utils_entry_exit_strategies" output="screen" required="true"/>
+  <node pkg="ram_utils" type="svg_parser.py" name="ram_svg_parser" output="screen" required="true"/>
+  <node pkg="ram_path_planning" type="ram_path_planning" name="ram_path_planning" output="screen" required="true"/>
+  <node pkg="ram_utils" type="ram_utils" name="ram_utils" output="screen" required="true"/>
+  <node pkg="ram_trajectory" type="ram_trajectory" name="ram_trajectory" output="screen" required="true"/>
+  <node pkg="ram_modify_trajectory" type="ram_modify_trajectory_pose_selector" name="ram_pose_selector" output="screen" required="true"/>
+  <node pkg="ram_modify_trajectory" type="ram_modify_trajectory" name="ram_modify_trajectory" output="screen" required="true"/>
+</launch>

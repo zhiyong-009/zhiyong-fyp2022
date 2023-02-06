@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ROS Additive Manufacturing${DESKTOP_APP_SUFFIX}
+Comment=The Qt GUIs for additive manufacturing
+Exec=${CMAKE_INSTALL_PREFIX}/lib/${PROJECT_NAME}/${PROJECT_NAME}.bash
+Icon=${DESKTOP_ICON_DIR}/${PROJECT_NAME}.png
+Type=Application
+Categories=ROS;Development;Engineering;
+StartupNotify=true

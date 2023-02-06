@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<library path="lib/libram_qt_guis_frames">
+  <class name="ram_qt_guis/Frames"
+         type="ram_qt_guis::Frames"
+         base_class_type="rviz::Panel">
+    <description>
+      Frames and start pose
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_display">
+  <class name="ram_qt_guis/Display"
+         type="ram_qt_guis::Display"
+         base_class_type="rviz::Panel">
+    <description>
+      Display parameters
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_path_planning">
+  <class name="ram_qt_guis/Path planning"
+         type="ram_qt_guis::PathPlanning"
+         base_class_type="rviz::Panel">
+    <description>
+      Automatically plan trajectories
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_fill_trajectory">
+  <class name="ram_qt_guis/Fill trajectory"
+         type="ram_qt_guis::FillTrajectory"
+         base_class_type="rviz::Panel">
+    <description>
+      Fill trajectory parameters
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_trajectory_utils">
+  <class name="ram_qt_guis/Trajectory utilities"
+         type="ram_qt_guis::TrajectoryUtils"
+         base_class_type="rviz::Panel">
+    <description>
+      Trajectory utilities
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_pose_info">
+  <class name="ram_qt_guis/Pose information"
+         type="ram_qt_guis::PoseInfo"
+         base_class_type="rviz::Panel">
+    <description>
+      Pose information
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_traj_info">
+  <class name="ram_qt_guis/Trajectory information"
+         type="ram_qt_guis::TrajInfo"
+         base_class_type="rviz::Panel">
+    <description>
+      Trajectory information
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_modify">
+  <class name="ram_qt_guis/Modify trajectory"
+         type="ram_qt_guis::Modify"
+         base_class_type="rviz::Panel">
+    <description>
+      Modify trajectory
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_entry_exit_strategies">
+  <class name="ram_qt_guis/Entry exit strategies"
+         type="ram_qt_guis::EntryExitStrategies"
+         base_class_type="rviz::Panel">
+    <description>
+      Entry and exit strategies
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_intralayers_display">
+  <class name="ram_qt_guis/Intralayers display"
+         type="ram_qt_guis::IntralayersDisplay"
+         base_class_type="rviz::Panel">
+    <description>
+      Display and navigate into the shape (trajectory) layers (vertical mode)
+    </description>
+  </class>
+</library>
+
+<library path="lib/libram_qt_guis_simulate">
+  <class name="ram_qt_guis/Simulate"
+         type="ram_qt_guis::Simulate"
+         base_class_type="rviz::Panel">
+  <description>
+    Simulate trajectory
+  </description>
+</class>
+</library>

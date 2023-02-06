@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="debug_path_planning" default="false"/>
+  <include file="$(find ram_qt_guis)/launch/nodes.launch">
+    <arg name="debug_path_planning" value="$(arg debug_path_planning)"/>
+  </include>
+  <node name="ram_rviz" pkg="rviz" type="rviz" args="-s '' -d $(find ram_qt_guis)/config/ram.rviz" output="screen" required="true"/>
+</launch>

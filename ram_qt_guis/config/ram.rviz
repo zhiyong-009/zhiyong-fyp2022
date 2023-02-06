@@ -1,0 +1,323 @@
+Panels:
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: ram_qt_guis/Display
+    Name: Display
+    axis_size: 2
+    change_alpha: false
+    color_by: 0
+    display_axis: false
+    display_labels: false
+    display_type: 0
+    entry_pose_alpha: 100
+    exit_pose_alpha: 100
+    label_approach_type: 0
+    label_blend_radius: 0
+    label_feed_rate: 0
+    label_laser_power: 0
+    label_movement_type: 0
+    label_pose_type: 0
+    label_speed: 0
+    label_type: 0
+    labels_size: 1
+    line_size: 5
+    mesh_alpha: 0.49803921580314636
+    mesh_blue: 0.49803921580314636
+    mesh_green: 0.49803921580314636
+    mesh_red: 0.49803921580314636
+    printing_pose_alpha: 100
+  - Class: ram_qt_guis/Path planning
+    ContoursAlgorithmdeposited_material_width: 1
+    ContoursAlgorithmfile: ""
+    ContoursAlgorithmheight_between_layers: 1
+    ContoursAlgorithmnumber_of_layers: 1
+    ContoursAlgorithmslicing_direction_x: 0
+    ContoursAlgorithmslicing_direction_y: 0
+    ContoursAlgorithmslicing_direction_z: 1
+    DonghongDingAlgorithmcontours_filtering_tolerance: 0.25
+    DonghongDingAlgorithmdeposited_material_width: 5
+    DonghongDingAlgorithmfile: /home/victor/Documents/code/additive_manufacturing/src/ros_additive_manufacturing/ram_path_planning/yaml/convex.yaml
+    DonghongDingAlgorithmheight_between_layers: 5
+    DonghongDingAlgorithmnumber_of_layers: 2
+    DonghongDingAlgorithmslicing_direction_x: 0
+    DonghongDingAlgorithmslicing_direction_y: 0
+    DonghongDingAlgorithmslicing_direction_z: 1
+    FollowPoses_arc_points: 10
+    FollowPoses_duplicate_layer: false
+    FollowPoses_file: ""
+    FollowPoses_height_between_layers: 1
+    FollowPoses_invert_one_of_two_layers: false
+    FollowPoses_number_of_layers: 2
+    FollowPoses_rotate_poses: 0
+    Name: Path planning
+    PolygonOffsetsAlgorithm_arc_points: 20
+    PolygonOffsetsAlgorithm_arc_tolerance: 12
+    PolygonOffsetsAlgorithm_automatic_reverse_path: true
+    PolygonOffsetsAlgorithm_avoid_trajectories_crossing: false
+    PolygonOffsetsAlgorithm_change_angle: true
+    PolygonOffsetsAlgorithm_connection_type: 0
+    PolygonOffsetsAlgorithm_connection_value: 90
+    PolygonOffsetsAlgorithm_deposited_material_width: 1
+    PolygonOffsetsAlgorithm_discontinous_trajectory: false
+    PolygonOffsetsAlgorithm_end_type: 0
+    PolygonOffsetsAlgorithm_file: ""
+    PolygonOffsetsAlgorithm_height_between_layers: 1
+    PolygonOffsetsAlgorithm_join_type: 1
+    PolygonOffsetsAlgorithm_miter_limit: 2
+    PolygonOffsetsAlgorithm_number_of_layers: 1
+    PolygonOffsetsAlgorithm_number_of_passes: 1
+    PolygonOffsetsAlgorithm_offset_factor: 0
+    PolygonOffsetsAlgorithm_reverse_origin_path: false
+    PolygonOffsetsAlgorithm_safe_distance: 3
+    PolygonOffsetsAlgorithm_towards_interior: false
+    ProfileAlgorithm_angle_percentage: 100
+    ProfileAlgorithm_angle_type: 0
+    ProfileAlgorithm_arc_points: 50
+    ProfileAlgorithm_deposited_material_width: 1
+    ProfileAlgorithm_file: ""
+    ProfileAlgorithm_height_between_layers: 1
+    ProfileAlgorithm_number_of_passes: 1
+    ProfileAlgorithm_slice_along_path: false
+    ProfileAlgorithm_towards_interior: false
+    RevolveAlgorithm_arc_points: 50
+    RevolveAlgorithm_connection_angle: 5
+    RevolveAlgorithm_deposited_material_width: 1
+    RevolveAlgorithm_file: ""
+    RevolveAlgorithm_height_between_layers: 1
+    RevolveAlgorithm_number_of_passes: 1
+    RevolveAlgorithm_revolution_number_of_points: 32
+    RevolveAlgorithm_slice_along_path: false
+    RevolveAlgorithm_towards_interior: false
+    algorithm: 0
+  - Class: ram_qt_guis/Entry exit strategies
+    Name: Entry exit strategies
+    entry_angle: 90
+    entry_distance: 20
+    entry_number_of_poses: 1
+    exit_angle: 90
+    exit_distance: 20
+    exit_number_of_poses: 1
+  - Class: ram_qt_guis/Fill trajectory
+    Name: Fill trajectory
+    approach_type: 1
+    blend_radius: 80
+    entry_move_speed: 1
+    exit_move_speed: 1
+    feed_rate: 1.5
+    laser_power: 1000
+    movement_type: 1
+    non_printing_move_speed: 2
+    printing_move_speed: 1
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+      Splitter Ratio: 0.5
+    Tree Height: 403
+  - Class: ram_qt_guis/Pose information
+    Name: Pose information
+    _mode: 1
+    _qw: 1
+    _qx: 0
+    _qy: 0
+    _qz: 0
+    _x: 0.17249999940395355
+    _y: 0.0024999999441206455
+    _z: 0.02
+  - Class: ram_qt_guis/Frames
+    Name: Frames
+    start_pose_mode: 1
+    start_pose_qw: 1
+    start_pose_qx: 0
+    start_pose_qy: 0
+    start_pose_qz: 0
+    start_pose_x: 0
+    start_pose_y: 0.05000000074505806
+    start_pose_z: 0
+    tool_mode: 1
+    tool_qw: 1
+    tool_qx: 0
+    tool_qy: 0
+    tool_qz: 0
+    tool_x: 0
+    tool_y: 0
+    tool_z: 0
+    trajectory_frame_mode: 1
+    trajectory_frame_qw: 0.965925826681935
+    trajectory_frame_qx: 0
+    trajectory_frame_qy: 0
+    trajectory_frame_qz: 0.2588190398955684
+    trajectory_frame_x: 0.05000000074505806
+    trajectory_frame_y: 0
+    trajectory_frame_z: 0
+  - Class: ram_qt_guis/Trajectory utilities
+    Name: Trajectory utilities
+    export_filename: ""
+    import_filename: ""
+  - Class: ram_qt_guis/Trajectory information
+    Name: Trajectory information
+  - Class: ram_qt_guis/Modify trajectory
+    Name: Modify trajectory
+    selection_mode: 1
+  - Class: ram_qt_guis/Intralayers display
+    Name: Intralayers display
+    layout: vertical
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 0.009999999776482582
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 100
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 3
+      Frames:
+        All Enabled: false
+        base:
+          Value: true
+        start_pose:
+          Value: true
+        tool_orientation:
+          Value: true
+        trajectory_frame:
+          Value: true
+      Marker Scale: 0.05000000074505806
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base:
+          trajectory_frame:
+            start_pose:
+              tool_orientation:
+                {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /ram_display/rvt_trajectory
+      Name: MarkerArray
+      Namespaces:
+        Cylinder: true
+      Queue Size: 20000
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /ram/display/mesh
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 2
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /ram_display/rvt_selection
+      Name: MarkerArray
+      Namespaces:
+        Spheres: true
+      Queue Size: 10000
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: base
+    Frame Rate: 60
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 0.30281567573547363
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.0769367516040802
+        Y: 0.1332140862941742
+        Z: 0.0032286904752254486
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.02500000037252903
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.0010000000474974513
+      Pitch: 0.885398268699646
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 5.598580837249756
+    Saved: ~
+Window Geometry:
+  Display:
+    collapsed: false
+  Displays:
+    collapsed: false
+  Entry exit strategies:
+    collapsed: false
+  Fill trajectory:
+    collapsed: false
+  Frames:
+    collapsed: false
+  Height: 1011
+  Hide Left Dock: false
+  Hide Right Dock: false
+  Intralayers display:
+    collapsed: false
+  Modify trajectory:
+    collapsed: false
+  Path planning:
+    collapsed: false
+  Pose information:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000001a100000388fc020000000ffb0000001200530065006c0065006300740069006f006e010000003f0000009b0000000000000000fb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000001600500061006e0065006c005700690064006700650074000000003f0000012f0000000000000000fc0000003f0000028b0000000000fffffffa000000000100000001fb000000120055007300650072004600720061006d006500000000000000016b0000000000000000fb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000001800500061006e0065006c00570069006400670065007400320100000345000000bb0000000000000000fb000000120055007300650072004600720061006d0065000000033f000000c10000000000000000fc0000003f000002330000000000fffffffa000000000100000001fb0000001400550073006500720020006600720061006d00650100000000ffffffff0000000000000000fc0000003f000002440000000000fffffffa000000000100000001fb00000020005400720061006a006500630074006f007200790020006600720061006d00650000000000ffffffff0000000000000000fc0000004400000201000000c50100001bfa000000000100000003fb0000001a005000610074006800200070006c0061006e006e0069006e00670100000000ffffffff0000009601000003fb0000002a0045006e00740072007900200065007800690074002000730074007200610074006500670069006500730100000000ffffffff000000b901000003fb0000001e00460069006c006c0020007400720061006a006500630074006f007200790100000000000001ad0000008f01000003fc00000246000001860000009d0100001bfa000000010100000002fb0000000c004600720061006d006500730100000000000001a10000006d01000003fb00000022004d006f00640069006600790020007400720061006a006500630074006f007200790100000000ffffffff000000a801000003000000010000019300000388fc0200000006fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb00000022005400720061006a006500630074006f007200790020006200750066006600650072010000003f000000750000000000000000fb00000028005400720061006a006500630074006f007200790020007500740069006c0069007400690065007301000000440000007c0000007801000003fc000000c10000019e0000009d0100001bfa000000010100000002fb0000002c005400720061006a006500630074006f0072007900200069006e0066006f0072006d006100740069006f006e0100000000ffffffff000000c901000003fb000000200050006f0073006500200069006e0066006f0072006d006100740069006f006e01000005c700000178000000aa01000003fc000002600000016c000001190100001bfa000000020100000005fb000000260049006e007400720061006c0061007900650072007300200064006900730070006c006100790100000000ffffffff000000d801000003fb000000260049006e007400720061006c0061007900650072007300200044006900730070006c006100790100000000ffffffff0000000000000000fb0000000e0044006900730070006c006100790100000000ffffffff000000ef01000003fb000000100044006900730070006c0061007900730100000000ffffffff0000016a01000003fb0000000a0056006900650077007301000005e6000001590000011001000003fb0000001200530065006c0065006300740069006f006e010000025a000000b20000000000000000000000020000073f000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073f0000003efc0100000002fb0000000800540069006d006500000000000000073f0000000000000000fb0000000800540069006d006501000000000000045000000000000000000000044a0000038800000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Trajectory information:
+    collapsed: false
+  Trajectory utilities:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1920
+  X: 0
+  Y: 0

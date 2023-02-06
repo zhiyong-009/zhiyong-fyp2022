@@ -1,0 +1,32 @@
+# Program information
+ProgramInformation information
+
+# Either , or . as decimal separator
+# 0 <=> ,
+# 1 <=> .
+int16 separator_type
+
+# Orientation convention, either quaternions (generic convention) or robot supplier (specific) e.g. Fanuc
+# 0 <=> quaternions
+# 1 <=> Fanuc
+int16 orientation_convention
+
+# Start the pose display at 1 else at 0
+bool start_at_0
+
+# Accuracy allow to modify the significant digit of the output
+int16 significant_digits
+
+# Orientation unit selector
+# if 0 <=> degrees
+# if 1 <=> radians
+int16 orientation_unit
+
+# Position unit selector
+# if 0 <=> millimeters
+# if 1 <=> meters
+int16 position_unit
+
+---
+string error
+RobotProgram[] programs

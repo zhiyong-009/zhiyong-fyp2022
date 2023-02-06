@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ram_post_processor</name>
+  <version>0.0.4</version>
+  <description>Post processor for additive manufacturing</description>
+
+  <author>Victor Lamoine - Institut Maupertuis</author>
+  <maintainer email="victor.lamoine@gmail.com">Victor Lamoine</maintainer>
+  <license>BSD-3-Clause-Attribution</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>eigen_conversions</depend>
+  <depend>genmsg</depend>
+  <depend>industrial_robot_angle_conversions</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>ram_msgs</depend>
+  <depend>ram_utils</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf_conversions</depend>
+</package>
