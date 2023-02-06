@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ram_utils" type="ram_utils" name="ram_utils"  output="screen" required="true"/>
+  <!-- Automated test -->
+  <test test-name="buffer_trajectory_test_client" pkg="ram_utils" type="ram_utils_services_clients" required="true"/>
+</launch>

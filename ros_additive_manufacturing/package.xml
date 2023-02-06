@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_additive_manufacturing</name>
+  <version>0.0.4</version>
+  <description>ROS-Industrial additive manufacturing tools (metapackage)</description>
+
+  <author>Andres Campos, Victor Lamoine - Institut Maupertuis</author>
+  <maintainer email="victor.lamoine@gmail.com">Victor Lamoine</maintainer>
+  <license>BSD-3-Clause-Attribution</license>
+
+  <url type="website">http://wiki.ros.org/ros_additive_manufacturing</url>
+  <url type="bugtracker">https://gitlab.com/InstitutMaupertuis/ros_additive_manufacturing/issues</url>
+  <url type="repository">https://gitlab.com/InstitutMaupertuis/ros_additive_manufacturing</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>ram_display</exec_depend>
+  <exec_depend>ram_modify_trajectory</exec_depend>
+  <exec_depend>ram_msgs</exec_depend>
+  <exec_depend>ram_path_planning</exec_depend>
+  <exec_depend>ram_post_processor</exec_depend>
+  <exec_depend>ram_qt_guis</exec_depend>
+  <exec_depend>ram_utils</exec_depend>
+  <exec_depend>ram_utils</exec_depend>
+
+  <export>
+    <metapackage/>
+    <architecture_independent/>
+    <rosindex>
+      <tags>
+        <tag>metapackage</tag>
+        <tag>additive_manufacturing</tag>
+        <tag>industrial</tag>
+        <tag>ros-industrial</tag>
+      </tags>
+    </rosindex>
+  </export>
+</package>

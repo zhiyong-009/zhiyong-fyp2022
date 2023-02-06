@@ -1,0 +1,13 @@
+---
+layer:
+  -
+    polygon:
+    - point: [0, 0, 0]
+    - point: [0, 1, 0]
+    - point: [1, 1, 0]
+    - point: [1, 0, 0]
+  -
+    polygon:
+    - point: [10, 10, 0]
+    - point: [11, 11, 0]
+    - point: [12, 10, 0]

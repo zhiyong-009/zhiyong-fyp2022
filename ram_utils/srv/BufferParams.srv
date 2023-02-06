@@ -1,0 +1,10 @@
+# Send all information about buffer panel
+
+# Button_id:
+# 1 = back button
+# 2 = forward button
+uint32 button_id
+---
+# If empty, service succeeded
+# If failure, contains an error string
+string error

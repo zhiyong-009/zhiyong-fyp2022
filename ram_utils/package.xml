@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ram_utils</name>
+  <version>0.0.4</version>
+  <description>Additive manufacturing miscellaneous utilities</description>
+
+  <author>Victor Lamoine - Institut Maupertuis</author>
+  <maintainer email="victor.lamoine@gmail.com">Victor Lamoine</maintainer>
+  <license>BSD-3-Clause-Attribution</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>eigen_conversions</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>ram_msgs</depend>
+  <depend>rosbag</depend>
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>svgpathtools-pip</depend>
+  <depend>tf2_ros</depend>
+  <depend>unique_id</depend>
+  <depend>uuid_msgs</depend>
+  <depend>yaml-cpp</depend>
+
+  <test_depend>rostest</test_depend>
+</package>

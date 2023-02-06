@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ram_utils" type="ram_utils_trajectory_info" name="ram_utils_trajectory_info" output="screen" required="true"/>
+  <!-- Automated test -->
+  <test test-name="ram_utils_trajectory_info_test" pkg="ram_utils" type="ram_utils_trajectory_info_test" required="true"/>
+</launch>
+

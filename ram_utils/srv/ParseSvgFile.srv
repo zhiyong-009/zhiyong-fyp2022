@@ -1,0 +1,13 @@
+# The SVG file to parse
+string file_name
+
+# If true: will check if the path is closed and return an error if not.
+bool closed_path
+
+# Arc discretize points
+# The number of points that an arc will be converted to.
+uint32 arc_points
+---
+uint32 number_of_paths
+string error
+ram_msgs/AdditiveManufacturingTrajectory traj

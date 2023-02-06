@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+   <test test-name="trajectory_files_manager_test" pkg="ram_utils" type="trajectory_files_manager_test" required="true"/>
+</launch>

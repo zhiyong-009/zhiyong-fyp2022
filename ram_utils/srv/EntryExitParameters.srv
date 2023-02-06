@@ -1,0 +1,7 @@
+float64 angle
+float64 distance
+uint32 number_of_poses
+
+# Only movement_type, approach_type, blend_radius and non_printing_move_speed params are used
+ram_msgs/FillParameters params
+---
