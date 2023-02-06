@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ROS Additive Manufacturing documentation${DESKTOP_APP_SUFFIX}
+Comment=RAM documentation
+Exec=sensible-browser ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/html/index.html
+Icon=${DESKTOP_ICON_DIR}/${PROJECT_NAME}.png
+Type=Application
+Categories=ROS;Development;Engineering;
+StartupNotify=false
