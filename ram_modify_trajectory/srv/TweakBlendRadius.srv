@@ -1,0 +1,7 @@
+# New values array
+ram_modify_trajectory/BlendRadiusModification[] new_blend_radius
+
+# The poses to be modified
+ram_msgs/AdditiveManufacturingPose[] poses
+---
+string error

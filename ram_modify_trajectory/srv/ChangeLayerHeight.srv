@@ -1,0 +1,16 @@
+# Set the height modification into absolute mode, i.e. the requested height replaces the current height
+# by default the modification mode is relative mode, i.e. the requested value is added to the current
+# (according to its sign)
+# True = absolute
+# False = relative
+bool absolute_mode
+
+# This parameter defines either the new height between layers for the whole selection (absolute mode) or
+# the algebraic distance (+ or -) to be added to the current one (relative mode)
+float64 height
+
+# The poses to be modified
+ram_msgs/AdditiveManufacturingPose[] poses
+
+---
+string error

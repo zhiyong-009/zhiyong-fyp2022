@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ram_modify_trajectory" type="ram_modify_trajectory_pose_selector" name="ram_modify_trajectory_pose_selector" output="screen" required="true"/>
+  <!-- Automated test -->
+  <test test-name="ram_modify_trajectory_pose_selector_test" pkg="ram_modify_trajectory" type="ram_modify_trajectory_pose_selector_test" required="true"/>
+</launch>
+

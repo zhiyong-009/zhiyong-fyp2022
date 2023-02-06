@@ -1,0 +1,7 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+
+float64 scale_factor # rotation angle around z'axis
+
+geometry_msgs/Point center_of_scaling
+---
+string error

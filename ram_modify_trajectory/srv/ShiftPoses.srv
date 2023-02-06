@@ -1,0 +1,5 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+float64 direction_angle # Angle of rotation relative to the X axis (0 rad = X)
+float64 angle_z # Angle of shifting
+---
+string error

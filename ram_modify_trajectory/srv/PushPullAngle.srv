@@ -1,0 +1,4 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+float32 angle
+---
+string error

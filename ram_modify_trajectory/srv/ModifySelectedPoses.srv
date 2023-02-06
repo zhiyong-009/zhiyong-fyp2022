@@ -1,0 +1,22 @@
+# Poses to be selected
+ram_msgs/AdditiveManufacturingPose[] poses
+
+# Reference pose, holds the value for the modification
+ram_msgs/AdditiveManufacturingPose pose_reference
+
+# Warning if a field is modified in AdditiveManufacturingPose, it MUST be modified here too! (and in the service)
+# Unless commented:
+# True = Absolute (pose_reference value will overwrite current value)
+# False = Relative (pose_reference value will be added to the current value)
+
+bool pose
+bool polygon_start # True = modified, false = keep original value
+bool polygon_end # True = modified, false = keep original value
+bool movement_type # True = modified, false = keep original value
+bool approach_type # True = modified, false = keep original value
+bool blend_radius
+bool speed
+bool laser_power
+bool feed_rate
+---
+string error

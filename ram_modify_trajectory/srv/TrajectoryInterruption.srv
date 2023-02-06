@@ -1,0 +1,10 @@
+# Selected poses
+ram_msgs/AdditiveManufacturingPose[] poses
+
+# False: No pose will be added, the selected pose will be converted to a polygon end and the next pose
+#  will be converted to a polygon start. This implies there MUST be a pose after the selected one.
+# True: The selected pose will be duplicated, the first will be converted to a polygon end and the next pose
+#  will be converted to a polygon start.
+bool add_pose
+---
+string error

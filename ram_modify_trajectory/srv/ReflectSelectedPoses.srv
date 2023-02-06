@@ -1,0 +1,9 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+
+# reference point on the refection plane
+geometry_msgs/Point point_on_plane
+
+# orthogonal vector to reflection plane
+geometry_msgs/Vector3 normal_vector
+---
+string error

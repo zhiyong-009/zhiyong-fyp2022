@@ -1,0 +1,8 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+
+float64 rotation_angle # rotation angle around z'axis
+
+geometry_msgs/Point center_of_rotation
+---
+string error
+

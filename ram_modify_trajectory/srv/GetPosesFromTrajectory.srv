@@ -1,0 +1,4 @@
+uint32[] pose_index_list
+---
+string error
+ram_msgs/AdditiveManufacturingPose[] poses

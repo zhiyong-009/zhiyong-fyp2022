@@ -1,0 +1,4 @@
+PoseInformationParameters information_parameters
+---
+string error
+ram_msgs/AdditiveManufacturingPose[] selection

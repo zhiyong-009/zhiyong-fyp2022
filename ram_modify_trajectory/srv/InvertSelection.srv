@@ -1,0 +1,5 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+---
+string error
+ram_msgs/AdditiveManufacturingPose[] selection
+

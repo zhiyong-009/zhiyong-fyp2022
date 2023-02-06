@@ -1,0 +1,4 @@
+ram_msgs/AdditiveManufacturingPose[] poses
+float64 area_threshold
+---
+string error
