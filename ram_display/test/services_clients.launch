@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="ram/display/trajectory_marker_topic" value= "/rvt_trajectory"/>
+  <param name="ram/trajectory_frame" value= "base"/>
+
+  <node pkg="ram_utils" type="ram_utils_frames_tf_broadcaster" name="ram_utils_frames_tf_broadcaster" output="screen" required="true"/>
+  <node pkg="ram_display" type="ram_display" name="ram_display" output="screen" required="true"/>
+  <!-- Automated test -->
+  <test test-name="services_clients" pkg="ram_display" type="ram_display_services_clients" required="true"/>
+
+  <!-- Human inspection test with RViz -->
+  <arg name="use_gui" default="false"/>
+  <group if="$(arg use_gui)">
+    <param name="use_gui" value="true"/>
+    <node pkg="tf2_ros" type="static_transform_publisher" name="tf2_static" args="2 0 0.5 0 0 0 1 base markers_frame" />
+    <node name="services_clients" pkg="ram_display" type="ram_display_services_clients" output="screen"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-s '' -d $(find ram_display)/config/services_clients.rviz" output="screen" required="true"/>
+  </group>
+</launch>

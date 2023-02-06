@@ -1,0 +1,3 @@
+ram_msgs/AdditiveManufacturingPose[] selected_poses
+bool temporary
+---

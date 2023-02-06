@@ -1,0 +1,51 @@
+# 0 = Cylinder
+# 1 = Wire
+uint32 display_type
+# Cylinder / wire size
+float32 line_size
+# Color by
+# 0 = Layer level
+# 1 = Layer index
+# 2 = Pose type
+# 3 = Movement type
+# 4 = Approach type
+# 5 = Blend radius
+# 6 = Speed
+# 7 = Laser power
+# 8 = Feed rate
+uint32 color_mode
+
+# Display X/Y/Z pose orientation axis
+bool display_axis
+# in millimeters
+float32 axis_size
+
+# Display some text above the pose
+bool display_labels
+# Text size in millimeters
+float32 label_size
+# Label text
+# 0 = Pose number
+# 1 = pose number within layer
+# 2 = Layer level
+# 3 = Layer index
+uint32 label_type
+bool label_pose_type
+bool label_laser_power
+bool label_feed_rate
+bool label_speed
+bool label_blend_radius
+bool label_approach_type
+bool label_movement_type
+
+# Color of displayed mesh
+std_msgs/ColorRGBA mesh_color
+
+# Alpha modifications
+float32 additive_pose_alpha
+float32 entry_pose_alpha
+float32 exit_pose_alpha
+---
+# If empty, service succeeded
+# If failure, contains an error string
+string error
