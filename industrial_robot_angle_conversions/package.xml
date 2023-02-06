@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>industrial_robot_angle_conversions</name>
+  <version>0.0.1</version>
+  <description>Header only package to convert angles and poses using industrial robots conventions</description>
+
+  <author>Victor Lamoine - Institut Maupertuis</author>
+  <maintainer email="victor.lamoine@gmail.com">Victor Lamoine</maintainer>
+  <license>BSD-3-Clause-Attribution</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>eigen_conversions</depend>
+  <depend>roscpp</depend>
+
+  <test_depend>rostest</test_depend>
+</package>

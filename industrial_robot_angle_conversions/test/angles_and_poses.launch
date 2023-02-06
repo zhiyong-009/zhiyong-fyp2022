@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <test test-name="services_clients" pkg="industrial_robot_angle_conversions" type="industrial_robot_angle_conversions_tests" required="true"/>
+</launch>
